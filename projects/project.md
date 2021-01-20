@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/VexLogo.png
 title: Vex Robotics Competition
-permalink: projects/project.md
+permalink: projects/project
 date: 2010-09-01 - 2017-05-01
 labels:
   - Robotics

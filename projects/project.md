@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/design-technology.jpg
+image: images/VexLogo.png
 title: Vex Robotics Competition
 permalink: projects/project.md
 date: 2010-09-01 - 2017-05-01

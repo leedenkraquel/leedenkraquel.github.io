@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/FRCLogo.png
 title: First Robotics Competition
-permalink: projects/project1.md
+permalink: projects/First Robotics Competition
 date: 2017-01-01
 labels:
   - Robotics

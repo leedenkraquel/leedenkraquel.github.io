@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Leeden Raquel",
     "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2020.",
+    "picture": "https://leedenkraquel.github.io/images/profilePicture.jpg",
+    "email": "leeden@hawaii.edu",
+    "phone": "808-640-2577",
+    "website": "https://leedenkraquel.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2022.",
     "location": {
       "address": "",
       "postalCode": "96822",
@@ -17,41 +17,34 @@
     "profiles": [
       {
         "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "username": "leedenkraquel",
+        "url": "http://github.com/leedenkraquel"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
-      },
-      {
-        "network": "twitter",
-        "username": "mollymal",
-        "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
+        "username": "Leeden Raquel",
+        "url": "http://linkedin.com/in/leeden-raquel"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
-      "keywords": [
-        "Arduino",
-        "TI MSP430"
-      ]
-    },
-    {
-      "name": "data mining",
+      "name": "Machine Learning",
       "keywords": [
       ]
     },
     {
-      "name": "artificial intelligence",
+      "name": "Software Engineering",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Game Development",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Sustainability",
       "keywords": [
       ]
     }
@@ -59,25 +52,13 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "level": "",
+      "level": "Intermediate",
       "keywords": [
         "C",
         "C++",
         "Java",
         "Javascript",
-        "Assembly",
-        "Common Lisp"
-      ]
-    },
-    {
-      "name": "Toolsets/OS",
-      "level": "",
-      "keywords": [
-        "MacOS",
-        "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Python"
       ]
     }
   ],
@@ -86,7 +67,7 @@
       "institution": "University of Hawaii, Honolulu, HI",
       "area": "Computer Science (expected Spring, 2018)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2017-09-01",
       "endDate": "Present",
       "gpa": "",
       "courses": [
@@ -108,10 +89,10 @@
     },
     {
       "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
+      "position": "Lab Assistant",
       "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
+      "startDate": "2016-09-01",
+      "endDate": "present",
       "summary": "",
       "highlights": [
         "Troubleshoot software, hardware and networking issues over the phone",
@@ -121,43 +102,50 @@
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "organization": "Hawaii VRC",
+      "website": "",
+      "position": "Volunteer Judge",
+      "startDate": "2018-12-01",
+      "endDate": "2018-12-01",
+      "summary": "Interview middle schoolers on their education of their robot and the engineering design process.",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
       ]
     },
     {
-      "organization": "",
+      "organization": "Hawaii Botball",
       "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
+      "position": "Volunteer Judge",
+      "startDate": "2019-04-27",
+      "endDate": "2019-04-27",
+      "summary": "Interview middle schoolers on their education of their robot and the engineering design process.",
       "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
       ]
     }
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "title": "Certificate of Recognition",
+      "date": "2016-2017",
+      "awarder": "The Pearl City Board no. 21",
+      "summary": "Exemplar technical achievement, team cohesiveness, and creativity."
     },
     {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "World Championship Qualifier",
+      "date": "2010-2017",
+      "awarder": "Vex Robotics Competition",
+      "summary": "My team and I qualified for the VRC world championship tournament for 7 years in a row."
+    },
+    {
+      "title": "Recognition of Students National Achievement Award",
+      "date": "2013-2014",
+      "awarder": "Hawaii State Department of Education",
+      "summary": "Recognize students who achieve awards nationally"
+    },
+    {
+      "title": "Certificate of Recognition",
+      "date": "2016",
+      "awarder": "City and County of Honolulu",
+      "summary": "Awarded to the Pearl City High School Chargers Robotics Team reciept o the Excellence Award, Tournament Champions, Robot Skills, and Think Awards."
     }
   ],
   "references": [

@@ -16,7 +16,7 @@ All throughout my childhood until I graduated highschool I had been engained int
 
 My main role in these programs was as the lead of the programming, electronics, and electrical system subsystems. Throughout my years in these programs, I have had over ten mentors who have taught me the basics and honed those skills from the experience they had in their professional careers as engineers. These volunteers taught me everything that I considered valuable throughout highschool. Teaching me skills like programming languages, basic electrical equations, and gracious professionalism.
 
-<img class="image-rounded" src="../images/UHplaque.png">
+<img class="small-image-rounded" src="../images/UHplaque.png">
 
 # University of Hawaii at Manoa
 Once I left high school, I enrolled at the University of Hawaii at Manoa as an electrical engineering major. In my first semester I had a coding class in a language that I had already knew and became a psuedo-class helper in my first semester. I eventually changed my major to computer science. As a computer science major I have learned many more skills and technologies that I consider more useful. With my background in programming, the classes I took opened my eyes to strategies, conventions, and styles that I had never considered before. These classes showed me many more programming languages, developer tools, and software engineering hacks.

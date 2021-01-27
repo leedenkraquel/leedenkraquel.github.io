@@ -17,7 +17,7 @@ When help is requested, it is prefered to come with a certain degree of effort p
 # Initial Strategies
 Before asking a professional, there are some things that should be done. Most of the solutions necessary to clearing a road block is available on the internet. By performing a minimal amount of research, anyone could find a solution to their problem. If the solution isn't available online, the solution can potentially be found in manuals, old codes, and by minimal trial and error. After trying all of that, a professional would be glad to help.
 
-<img class = "ui small left floated rounded image" src = "../images/FAQLogo.png">
+<img class = "ui small right floated rounded image" src = "../images/FAQLogo.png">
 
 # Requesting Back Up
 Once the reservoir of the internet is searched and no solution is found, it is time to ask for help. Many areas on the internet such as forums and FAQ's are made for these questions. Most forums and FAQ's are posted with a specific audience in mind, so it is expected that the posts in these areas are relevant to the topic. When posting to these forums it is courteous to make sure the post is in the correct location and not already answered. Questions with an elementary solution are also discouraged and seen as a waste of time.

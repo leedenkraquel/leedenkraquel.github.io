@@ -7,12 +7,12 @@ labels:
   - Software Engineering
 ---
 # Finding Yourself in a Struggle
-When working on code, tthere are often poblems along the way. Often, these problems are simple and can be solved with a single search on Google. Other times it isn't so simple. The work is important and facing these problems is the only way to complete it. In the end, you will find out that it is beneficial to request help from others.
+When working on code, there are often poblems along the way. Often, these problems are simple and can be solved with a single search on Google. Other times it isn't so simple. The work is important and facing these problems is the only way to complete it. In the end, you will find out that it is beneficial to request help from others.
 
 <img class = "ui small right floated rounded image" src = "../images/StackOverflowLogo.png">
 
 # Asking Like a Pro
-When help is requested, it is prefered to come with a certain degree of effort prior. No one likes it when a toddler asks for help with homework that they barely even gave an attempt. When helping someone like this, it can become a challenge to get the person wanting to learn how to solve the problem themselves. Author of How to Ask Questions the Smart Way, Eric Raymond, outlines "the best way to get a rapid and responsive answer.
+When help is requested, it is prefered to come with a certain degree of effort prior. No one likes it when a toddler asks for help with homework that they barely even gave an attempt. When helping someone like this, it can become a challenge to get the person wanting to learn how to solve the problem themselves. Author of How to Ask Questions the Smart Way, Eric Raymond, outlines "the best way to get a rapid and responsive answer".
 
 # Initial Strategies
 Before asking a professional, there are some things that should be done. Most of the solutions necessary to clearing a road block is available on the internet. By performing a minimal amount of research, anyone could find a solution to their problem. If the solution isn't available online, the solution can potentially be found in manuals, old codes, and by minimal trial and error. After trying all of that, a professional would be glad to help.

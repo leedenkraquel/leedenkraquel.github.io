@@ -1,16 +1,17 @@
 ---
 layout: essay
 type: essay
-title: UI Development
-date: 2021-02-11
+title: Who uses UI?
+date: 2021-02-25
 labels:
   - Software Engineering
-  - Formatting
+  - UI
+  - Web Design
 ---
 
-If it is your first time coding, your files might look a little something like this:
+Have you ever seen a webpage that looks like this:
 
-<img class="ui medium right floated rounded image" src="../images/MessyCode.png">
+<img class="ui medium image" src="../images/BasicWebpageExample.png" href="../BasicWebpageExample.html">
 
 For the experienced programmer, this is "unreadable" code. Obviously, this is an exaggeration. The code is able to be read and interpreted, but not without a significant amount of time and effort. It may not seem like the largest inconvience if it takes a few seconds longer to go over the code right? Maybe, but imagine if an entire project is "unreadable." The seconds necessary to interpret over 500 lines would add up. The solution to this is simple, [coding standards](https://www.geeksforgeeks.org/coding-standards-and-guidelines/#:~:text=A%20coding%20standard%20gives%20a,increases%20efficiency%20of%20the%20programmers.). Coding standards are a well defined practice that a group of programmers can use to make their code organized in a similar fashion. Why would you want to do that? Coding standards might be difficult to get used to, but once thee standard is implemented into your practices, standardless code becomes "unreadable."
 

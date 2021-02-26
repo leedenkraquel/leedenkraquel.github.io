@@ -11,7 +11,7 @@ labels:
 
 Have you ever seen a webpage that looks like this:
 
-<img class="ui medium bordered image" src="../images/BasicWebpageExample.png" href="../_includes/BasicWebpageExample.html">
+<img class="ui medium bordered image"  href="../_includes/BasicWebpageExample.html" src="../images/BasicWebpageExample.png">
 
 This is a webpage, and a rather basic one at it. Many people who peruse the web rarely see a webpage that looks like this because people who develop webpages usually have standards for themselves. Webpages are known to look much better than this and have much more color, style, attitude, and pazzazz. Take [Google.com](google.com) for example. This webpage is often a simple webpage but on rather frequent occasions becomes a digital mural to some day, person, or event. This is what is known as UI design. A user-interface design, made to interact with the user. However, if you've ever tried to make a webpage yourself, a simple website like the Google has made famous is not necessarily a simple task.
 
@@ -25,14 +25,18 @@ If you wanna make a website on the level of a professional, the next step is mos
   Semantic UI can do some amazing things with the simplest of integration. With a class system that is based on English and not some fancy programing jargon, the framework is simple to grasp and can even, though no professional would recommend it, guessed through.
 
 Let's show an example. Here are four images that use the Semantic UI framework with multiple classes. The first image is a medium sized UI image with floated to the right of the screen.
+
 <img class="ui medium right float image" src="../images/Cow.jpg">
 
 The second image is a tiny UI image made into the icon of a profile.
+
 <img class="ui avatar image" src="../images/Cow.jpg">
 <span>Cow</span>
 
 The third image is a fluid UI image which will take up as much horizontal space as it is provided.
+
 <img class="ui fluid image" src="../images/Cow.jpg">
 
 The last image is a circular UI image centered to the screen and made to a small size.
+
 <img class="ui small circular centered image" src="../images/Cow.jpg">

@@ -11,20 +11,28 @@ labels:
 
 Have you ever seen a webpage that looks like this:
 
-<img class="ui medium image" src="../images/BasicWebpageExample.png" href="../BasicWebpageExample.html">
+<img class="ui medium bordered image" src="../images/BasicWebpageExample.png" href="../_includes/BasicWebpageExample.html">
 
-For the experienced programmer, this is "unreadable" code. Obviously, this is an exaggeration. The code is able to be read and interpreted, but not without a significant amount of time and effort. It may not seem like the largest inconvience if it takes a few seconds longer to go over the code right? Maybe, but imagine if an entire project is "unreadable." The seconds necessary to interpret over 500 lines would add up. The solution to this is simple, [coding standards](https://www.geeksforgeeks.org/coding-standards-and-guidelines/#:~:text=A%20coding%20standard%20gives%20a,increases%20efficiency%20of%20the%20programmers.). Coding standards are a well defined practice that a group of programmers can use to make their code organized in a similar fashion. Why would you want to do that? Coding standards might be difficult to get used to, but once thee standard is implemented into your practices, standardless code becomes "unreadable."
+This is a webpage, and a rather basic one at it. Many people who peruse the web rarely see a webpage that looks like this because people who develop webpages usually have standards for themselves. Webpages are known to look much better than this and have much more color, style, attitude, and pazzazz. Take [Google.com](google.com) for example. This webpage is often a simple webpage but on rather frequent occasions becomes a digital mural to some day, person, or event. This is what is known as UI design. A user-interface design, made to interact with the user. However, if you've ever tried to make a webpage yourself, a simple website like the Google has made famous is not necessarily a simple task.
 
-# Organization
+# Webpage Design
 
-<img class="ui medium left floated rounded image" src="../images/MessyShoes.jpg">
+Anyone who's worked on UI design know that it's a little complicated in the beginning. Starting off with the basic html framework, the development of a webpage is a neat and simple process. However, the process doesn't end with a world class multi-million dollar company webpage. Your first webpage most likely looks like the one illustrated above, black text on a white background. It's not until css code is integrated until aspects like color, size, borders, shapes, and the more intricate formatting comes into play. The application of the css code into a webpage gives it a lot more personality while helping organize the website in the process.
 
-Every programmer will inevitably be required to work with others. Like handwriting, the natural practices of individuals are unique. The format and design of a program can vary widely from author to author. Although individuation is generally a good thing, this is not the case for programming. By implementing a coding standard, multiple programmers can format their code in a common fashion. This common format is of great advantage when working on the same code or same projects. By utilizing a common format, the code becomes more simple. Take the scenario for example, you go to a party at a friends house. As everyone enters, they remove their shoes, this is common practice in Hawaii. The party comes to an end and everyone leaves. THe door slowly becomes swamped as each person who leaves are required to sort through the pile of shoes looking for theirs. It is a common joke in Hawaii that you go home with someone elses shoes by accident.
+# UI Frameworks
 
-<img class="ui medium right floated rounded image" src="../images/NeatShoeRack.jpg">
+If you wanna make a website on the level of a professional, the next step is most likely integrating a UI framework into the website. The UI framework is a set of classes and subsystems that will help organize the webpage. It facilitates many structures that are common among many websites. A good first base to UI frameworks is definitely [Semantic-UI](https://semantic-ui.com/). This UI framework is a simple class based framework that can be used to replicate many of the structures that can be seen throughout the internet. Even this webpage is made with Semantic UI.
+  Semantic UI can do some amazing things with the simplest of integration. With a class system that is based on English and not some fancy programing jargon, the framework is simple to grasp and can even, though no professional would recommend it, guessed through.
 
-This is a silly example that does a good job to represent the problem that arises from a lack of formatting. If everyone had organized their shoes on a shoe rack before entering for example, they would have a much easier time finding their shoes as they exit. Just like coding standards, formatting in a common organized style would increase the speed and accuracy of users attempting to identify in this case their shoes. 
+Let's show an example. Here are four images that use the Semantic UI framework with multiple classes. The first image is a medium sized UI image with floated to the right of the screen.
+<img class="ui medium right float image" src="../images/Cow.jpg">
 
-# Sustainability
+The second image is a tiny UI image made into the icon of a profile.
+<img class="ui avatar image" src="../images/Cow.jpg">
+<span>Cow</span>
 
-The common organization outlined by coding standards do much more than increase readability. Throughout multiple projects, the use of a coding standard will improve the capabilities that code can be reused. The reuse of code saves hours and promotes consistency. By using the same code for scenarios that appear consistently, the necessity to recreate code and debug that code is greatly alleviated. So the next time someone needs to look at your code, impress them by implementing a neat coding standard. They will certainly appreciate the simplicity and clarity that you provide them with.
+The third image is a fluid UI image which will take up as much horizontal space as it is provided.
+<img class="ui fluid image" src="../images/Cow.jpg">
+
+The last image is a circular UI image centered to the screen and made to a small size.
+<img class="ui small circular centered image" src="../images/Cow.jpg">

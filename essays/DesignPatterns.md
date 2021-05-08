@@ -11,7 +11,7 @@ Many software developers and engineers know that there are a few guidelines that
 
 <img class = "ui medium left floated rounded image" src = "../images/FactoryDesignPattern.jpg">
 
-#Famous Design Patterns
+# Famous Design Patterns
 A design pattern "descibes a problem that occurs over and over again in our environment and then describes the core of the solution to that problem, in such a way that you can use this solution a million times over, without ever doing it the same way twice." (Christopher Alexander, 1977). In short, design patterns are archetypes of solutions that can be applied to a class of problems to easily solve them. A few of these famous design patters are the factory design patterd, the singleton design pattern, the observer design pattern, and the model-view-controller(MVC) design pattern. The factory design pattern is a pattern that solves a problem that deals with the creation of objects that are appropriate for certain situations. The singelton design pattern provides a global variable in the programming language that does not support global variables. The observer pattern deals with a set of objects that listen on a subject for change and respond according to the stimulus. The MVC design pattern creates a user interface that is seperate from the data that the user interface represents through a controller.
 
 <img class = "ui medium right floated rounded image" src = "../images/MVCDesignPattern.jpg">

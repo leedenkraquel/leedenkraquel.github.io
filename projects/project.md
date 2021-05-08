@@ -12,9 +12,7 @@ labels:
 summary: My team and I developed world class robots to compete in the numerous Vex Robotics Competitions throughout the years.
 ---
 
-<div class="ui small rounded images">
-  <img class="ui image" src="../images/VexImage1.jpg">
-</div>
+<img class="ui fluid rounded image" src="../images/VexImage1.jpg">
 
 Vex Robotics Competition is a string of annual robotics competitions with tournaments spread out throughout the year. Tournaments are held world wide and challenges change annually. Though each iteration of the challenge is different, they all have the same base rules. The each match is held between two alliances each constructed of two teams. Each match consists of two parts, an autonomous portion and a driver controlled portion. The autonomous portion is a 15-second period at the start of each match where all four of the robots autonomously perform tasks to leverage points over the opponents. The driver controlled portion is a 60-second period after the autonomous period where drivers take hold of the robots and drive the robots to accomplish the goals even further.
 

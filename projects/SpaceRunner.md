@@ -3,12 +3,12 @@ layout: project
 type: project
 image: images/SpaceRunnerCover.jpg
 title: Space Runner
-permalink: projects/UHM Git Clubs
-date: 2017-09-01
+permalink: projects/Space Runner
+date: 2021-05-10
 labels:
   - Python
   - Pygame
-summary: I created a simple game that uses the pygame api
+summary: I created a simple game that uses the pygame api.
 ---
 
 Space Runner is a very basic video game made using the python and the pygame api. The objective of the game is to dodge a storm of rocks that fly though space. The game has three phases, the introduction phase, the play phase, and the game over phase. 

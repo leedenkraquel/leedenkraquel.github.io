@@ -3,7 +3,7 @@
     "name": "Leeden Raquel",
     "label": "Student",
     "picture": "https://leedenkraquel.github.io/images/profilePicture.jpg",
-    "email": "leeden@hawaii.edu",
+    "email": "leedenl99@gmail.com",
     "phone": "808-640-2577",
     "website": "https://leedenkraquel.github.io",
     "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2022.",
@@ -65,7 +65,7 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2022)",
+      "area": "Computer Science (expected Fall, 2022)",
       "studyType": "B.S.",
       "startDate": "2017-09-01",
       "endDate": "Present",
@@ -79,12 +79,12 @@
       "company": "UH Information Technology Services",
       "position": "Lab Assistant",
       "website": "http://www.hawaii.edu/its/",
-      "startDate": "2016-09-01",
+      "startDate": "2018-09-01",
       "endDate": "Present",
       "summary": "",
       "highlights": [
         "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Perform routine maintenance on lab equipment"
       ]
     }
   ],
@@ -132,6 +132,7 @@
     {
       "title": "Certificate of Recognition",
       "date": "2016",
+      "website": "https://www.robotevents.com/index.php/events/38192/uploads/5194/download",
       "awarder": "City and County of Honolulu",
       "summary": "Awarded to the Pearl City High School Chargers Robotics Team reciept o the Excellence Award, Tournament Champions, Robot Skills, and Think Awards."
     }

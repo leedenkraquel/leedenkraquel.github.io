@@ -39,12 +39,7 @@
       ]
     },
     {
-      "name": "Game Development",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Sustainability",
+      "name": "Application Development",
       "keywords": [
       ]
     }
@@ -56,9 +51,15 @@
       "keywords": [
         "C",
         "C++",
+        "C#",
+        "HTML",
+        "CSS",
         "Java",
         "Javascript",
-        "Python"
+        "Python",
+        "ReactJS",
+        "ReactNative",
+        "Flutter"
       ]
     }
   ],
@@ -77,35 +78,58 @@
   "work": [
     {
       "company": "UH Information Technology Services",
-      "position": "Lab Assistant",
+      "position": "IT Support",
       "website": "http://www.hawaii.edu/its/",
-      "startDate": "2018-09-01",
-      "endDate": "Present",
+      "startDate": "2022-03-21",
+      "endDate": "present",
       "summary": "",
       "highlights": [
         "Troubleshoot software, hardware and networking issues over the phone",
-        "Perform routine maintenance on lab equipment"
+        "Train end users on hardware functionality and software programs",
+        "Resolve logged errors systematically",
+        "Documenting process and performance diagnostics for datacenter"
+      ]
+    },
+    {
+      "company": "UH Information Technology Services",
+      "position": "Lab Assistant",
+      "website": "http://www.hawaii.edu/its/",
+      "startDate": "2018-09-01",
+      "endDate": "2022-03-19",
+      "summary": "",
+      "highlights": [
+        "Assist with user requests and issues",
+        "Resolve lab related malfunctions",
+        "Perform routine maintenance on lab equipment",
+        "Monitor supplies and handle shortages"
       ]
     }
   ],
   "volunteer": [
     {
       "organization": "Hawaii VRC",
-      "website": "",
+      "website": "https://www.robotevents.com/robot-competitions/vex-robotics-competition",
       "position": "Volunteer Judge",
-      "startDate": "2018-12-01",
-      "endDate": "2018-12-01",
-      "summary": "Interview middle schoolers on their education of their robot and the engineering design process.",
+      "startDate": "2021-11-04",
+      "summary": "Interview middle school and high school students on their education of their robot and the engineering design process.",
       "highlights": [
       ]
     },
     {
       "organization": "Hawaii Botball",
-      "website": "",
+      "website": "https://www.kipr.org/botball",
       "position": "Volunteer Judge",
       "startDate": "2019-04-27",
-      "endDate": "2019-04-27",
-      "summary": "Interview middle schoolers on their education of their robot and the engineering design process.",
+      "summary": "Interview middle school students on their education of their robot and the engineering design process.",
+      "highlights": [
+      ]
+    },
+    {
+      "organization": "Hawaii VRC",
+      "website": "https://www.robotevents.com/robot-competitions/vex-robotics-competition",
+      "position": "Volunteer Judge",
+      "startDate": "2018-12-01",
+      "summary": "Interview middle school students on their education of their robot and the engineering design process.",
       "highlights": [
       ]
     }

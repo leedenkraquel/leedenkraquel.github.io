@@ -25,7 +25,7 @@ If you wanna make a website on the level of a professional, the next step is mos
 
 Let's show an example. Here are four images that use the Semantic UI framework with multiple classes. The first image is a medium sized UI image with floated to the right of the screen.
 
-<img class="ui medium right float image" src="../images/Cow.jpg">
+<img class="ui medium right floated image" src="../images/Cow.jpg">
 
 The second image is a tiny UI image made into the icon of a profile.
 

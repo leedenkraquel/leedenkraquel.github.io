@@ -36,13 +36,15 @@ The simple neural network contained only one hidden layer. The input is a 784x1 
 
 # Feature Engineering 
 Before handing the dataset into the neural network, the data has to be flattened from a 28x28 grayscale image to a 784x1 array of number which represents the value of each pixel.
-    
+
+<img class = "ui medium floated left image" src = "../images/NeuronOptimization.png">
+
 Of the 70,000 samples, 60,000 samples were used as a training set and the remaining 10,000 samples were considered the clean testing set. The clean testing set is important to analyze the neural network using data that it has never seen before. 
 
 # Hyperparameter Optimization
 The hyperparameters in the neural network include learning rate, batch size, max epochs, and hidden layer shape. Learning rate controls the magnitude of the weight adjustments for each epoch of training. The batch size determines the number of samples that the neural network trains on at a time. The max epochs determines the maximum number of times the neural network is trained. The hidden layer shape determines the number of neurons in the hidden layer. The learning rate was tuned between 0.01 and 1e-10 in intervals of a magnitude of 1/10. The batch size was tuned between 1 and 500 samples at a time in intervals of 10. The max epochs was tuned between 10 and 10000 epochs with intervals of 1000. The hidden layer shape was tuned between 1 and 29 neurons with intervals of 1.
 
-<img class = "ui medium floated left image" src = "../images/NeuronOptimization.png">
+<img class = "ui medium floated right image" src = "../images/NeuronOptimizationPred.png">
 
 The hyperparameters were optimized by hand, evaluating the cross entropy loss over time as the network trained. After trying each value for the hyperparameters, the best values were found. The best hyperparameters were found to be the following:
 > Learning Rate: 1e-10
@@ -62,8 +64,6 @@ The neural network was able to successfully classify the sample 96% of the time.
 > Confusion between the pullovers (2nd) class, coats (4th) class, and shirts (6th) class. But the networks with greater neurons begin to grow a stronger capability of telling the difference between these two. 
 
 > Extreme accuracy in all the other classes which could be seen as overfitting.
-
-<img class = "ui medium floated right image" src = "../images/NeuronOptimizationPred.png">
 
 # Neural Network Class
 class NeuralNetwork():

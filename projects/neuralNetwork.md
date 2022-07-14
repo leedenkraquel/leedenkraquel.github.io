@@ -64,7 +64,7 @@ The neural network was able to successfully classify the sample 96% of the time.
 <img class = "ui floated right image" src = "../images/NeuronOpimizationPred.png">
 
 # Neural Network Class
-`class NeuralNetwork():
+```class NeuralNetwork():
     
     def __init__(self, inputs, hidden, outputs):
         """
@@ -206,4 +206,4 @@ The neural network was able to successfully classify the sample 96% of the time.
         Returns:
             output_layer: NxD array where n-th row is vector of probabilities.
         """
-        return self.output_layer`
+        return self.output_layer```

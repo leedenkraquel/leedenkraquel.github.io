@@ -44,15 +44,21 @@ The hyperparameters in the neural network include learning rate, batch size, max
 
 The hyperparameters were optimized by hand, evaluating the cross entropy loss over time as the network trained. After trying each value for the hyperparameters, the best values were found. The best hyperparameters were found to be the following:
 > Learning Rate: 1e-10
+
 > Batch Size: 100
+
 > Max Epochs: 6000
+
 > Hidden Layer Shape: 25+
+
 The learning rate of 1e-10 prevented the neural network from becoming unstable while training but allowed the weights to still be updated at a good enough pace to save time with epochs. The batch size turned out to be 100 simply because my system could not process any larger batch sizes. The best number of max epochs turned out to be 6000 as any epochs beyond that would not have a noticable effect on loss. Lastly, the number of hidden layers did not seem to significantly change the rate that the loss changed, but significantly increased the accuracy of the predictions as the number of neurons surpassed 25.
 
 # Evaluation
 The neural network was able to successfully classify the sample 96% of the time. However, I observed some patterns: 
 > High rates of confusion between the sandal (5th) class and the sneaker (7th) class. They would often get swapped with a higher bias to predict a sandal over a sneaker. 
+
 > Confusion between the pullovers (2nd) class, coats (4th) class, and shirts (6th) class. But the networks with greater neurons begin to grow a stronger capability of telling the difference between these two. 
+
 > Extreme accuracy in all the other classes which could be seen as overfitting.
 
 <img class = "ui floated right image" src = "../images/NeuronOpimizationPred.png">

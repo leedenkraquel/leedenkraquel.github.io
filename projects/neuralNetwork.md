@@ -63,10 +63,10 @@ The neural network was able to successfully classify the sample 96% of the time.
 
 > Extreme accuracy in all the other classes which could be seen as overfitting.
 
-<img class = "ui small floated right image" src = "../images/NeuronOptimizationPred.png">
+<img class = "ui medium floated right image" src = "../images/NeuronOptimizationPred.png">
 
 # Neural Network Class
-```class NeuralNetwork():
+class NeuralNetwork():
     
     def __init__(self, inputs, hidden, outputs):
         """
@@ -208,4 +208,4 @@ The neural network was able to successfully classify the sample 96% of the time.
         Returns:
             output_layer: NxD array where n-th row is vector of probabilities.
         """
-        return self.output_layer```
+        return self.output_layer

@@ -4,7 +4,7 @@ type: project
 image: images/SpaceRunnerCover.jpg
 title: Space Runner
 permalink: projects/Space Runner
-date: 2021-05-10
+date: 2021-10-05
 labels:
   - Python
   - Pygame

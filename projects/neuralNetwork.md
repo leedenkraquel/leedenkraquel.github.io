@@ -40,7 +40,7 @@ Of the 70,000 samples, 60,000 samples were used as a training set and the remain
 # Hyperparameter Optimization
 The hyperparameters in the neural network include learning rate, batch size, max epochs, and hidden layer shape. Learning rate controls the magnitude of the weight adjustments for each epoch of training. The batch size determines the number of samples that the neural network trains on at a time. The max epochs determines the maximum number of times the neural network is trained. The hidden layer shape determines the number of neurons in the hidden layer. The learning rate was tuned between 0.01 and 1e-10 in intervals of a magnitude of 1/10. The batch size was tuned between 1 and 500 samples at a time in intervals of 10. The max epochs was tuned between 10 and 10000 epochs with intervals of 1000. The hidden layer shape was tuned between 1 and 29 neurons with intervals of 1.
 
-<img class = "ui floated left image" src = "../images/NeuronOptimization.png>
+<img class = "ui floated left image" src = "../images/NeuronOptimization.png">
 
 The hyperparameters were optimized by hand, evaluating the cross entropy loss over time as the network trained. After trying each value for the hyperparameters, the best values were found. The best hyperparameters were found to be the following:
 > Learning Rate: 1e-10

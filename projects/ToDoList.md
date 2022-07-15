@@ -9,10 +9,9 @@ labels:
   - Javascript
   - AWS
   - ReactJS
-summary: I created a basic web app that was able to house the to do lists of multiple users.
+summary: A web app that was able to house the to do lists of multiple users.
 ---
 
-# Project Overview
 This to do list is a very basic application to test myself and practice some basic skills. I created this to practice my skills in ReactJS and to play around with Amazon Web Services a little. This project is the first of a set I plan to do in order to slowly teach myself to create large scale applications. Being the first, it is simple hand has a small scope.
 
 <img class = "ui large left floated image" src = "../images/ToDoListLanding0.PNG">
@@ -40,6 +39,6 @@ After the project was completed, the last thing to do was get the project into t
     Criteria 4 - Rating for functionality and ease of use.
 
 # Summary
-During the documentation process, I was extremely confident after a few days I had accomplished many of the tasks that I had planned. These tasks were simple, involving basic UI and UX elements to render to the screen and navigate. The problem came when it was time to implement AWS into the project. This took weeks longer than I had expected it to. In the future, I will have a better understanding of this and other web services so that I can better handle the challenge of using them, but for this project I had to shrink the scope of the project to finish closer to the deadline date. This meant no mobile version of the application. I learned a lot from this project including documentation styles, basic UI and UX principles, database security procedures, and how to best manage time across multiple tasks.
+During the documentation process, I was extremely confident after a few days. I had accomplished many of the tasks that I had planned. These tasks were simple, involving basic UI and UX elements to render to the screen and navigate. The problem came when it was time to implement AWS into the project. This took weeks longer than I had expected it to. In the future, I will have a better understanding of this and other web services so that I can better handle the challenge of using them, but for this project I had to shrink the scope of the project to finish closer to the deadline date. This meant no mobile version of the application. I learned a lot from this project including documentation styles, basic UI and UX principles, database security procedures, and how to best manage time across multiple tasks.
 
 The github repository project can be found [here](https://github.com/leedenkraquel/to-do-list).

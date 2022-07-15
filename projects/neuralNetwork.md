@@ -10,23 +10,32 @@ labels:
   - Numpy
   - Neural Networks
   - Machine Learning
-summary: I created a simple neural network without the use of machine learning libraries.
+summary: A simple neural network without the use of common machine learning libraries.
 ---
 
-# Project Overview
-This neural network recognizes articles of clothing from the [fashion mnist dataset](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/). The significance of this simple neural network classifier is that it is constructed without the use of famous libraries such as Keras, Scikit Learn, Pytorch, etc.
+I created a neural nework from scratch. This neural network recognizes articles of clothing from the [fashion mnist dataset](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/). The significance of this simple neural network classifier is that it is constructed without the use of famous libraries such as Keras, Scikit Learn, Pytorch, etc.
 
 # The Fashion MNIST Dataset
 The MNIST Fashion dataset includes 70,000 samples of 28x28 grayscale images of clothing articles. Each of these samples are labeled as one of ten classes. The classes are as follows:
+
 0 - T-shirt/top
+
 1 - Trouser
+
 2 - Pullover
+
 3 - Dress
+
 4 - Coat
+
 5 - Sandal
+
 6 - Shirt
+
 7 - Sneaker
+
 8 - Bag
+
 9 - Ankle Boot
 
 # The Neural Network
@@ -42,7 +51,7 @@ Before handing the dataset into the neural network, the data has to be flattened
 Of the 70,000 samples, 60,000 samples were used as a training set and the remaining 10,000 samples were considered the clean testing set. The clean testing set is important to analyze the neural network using data that it has never seen before. 
 
 # Hyperparameter Optimization
-The hyperparameters in the neural network include learning rate, batch size, max epochs, and hidden layer shape. Learning rate controls the magnitude of the weight adjustments for each epoch of training. The batch size determines the number of samples that the neural network trains on at a time. The max epochs determines the maximum number of times the neural network is trained. The hidden layer shape determines the number of neurons in the hidden layer. The learning rate was tuned between 0.01 and 1e-10 in intervals of a magnitude of 1/10. The batch size was tuned between 1 and 500 samples at a time in intervals of 10. The max epochs was tuned between 10 and 10000 epochs with intervals of 1000. The hidden layer shape was tuned between 1 and 29 neurons with intervals of 1.
+The hyperparameters in a machine learning model are the set of numbers that can be changed to heighten the efficiency and quality of training wihtin the model. The hyperparameters in the neural network include learning rate, batch size, max epochs, and hidden layer shape. Learning rate controls the magnitude of the weight adjustments for each epoch of training. The batch size determines the number of samples that the neural network trains on at a time. The max epochs determines the maximum number of times the neural network is trained. The hidden layer shape determines the number of neurons in the hidden layer. The learning rate was tuned between 0.01 and 1e-10 in intervals of a magnitude of 1/10. The batch size was tuned between 1 and 500 samples at a time in intervals of 10. The max epochs was tuned between 10 and 10000 epochs with intervals of 1000. The hidden layer shape was tuned between 1 and 29 neurons with intervals of 1.
 
 The hyperparameters were optimized by hand, evaluating the cross entropy loss over time as the network trained. After trying each value for the hyperparameters, the best values were found. The best hyperparameters were found to be the following:
 > Learning Rate: 1e-10

@@ -15,7 +15,7 @@ labels:
 summary: A neural network that drives a racecar around a racetrack.
 ---
 
-"OpenAI is an AI research and deployment company. Our mssion is to ensure that artificial general intelligence benefits all of humanity." ([openai.com/about/](https://openai.com/about/)) Besides their mission statement, the team at OpenAI provides people around the world with strong datasets that can be used to train machine learning models. Some of famous models researched using OpenAI are [DALLE2](https://openai.com/dall-e-2/) and the [Dota 2 bot](https://openai.com/blog/dota-2/). I used a popular set to train a neural network to drive a racecar using the Markov Decision Process ([MDP](https://en.wikipedia.org/wiki/Markov_decision_process)) and behavioral cloning.
+"OpenAI is an AI research and deployment company. Our mssion is to ensure that artificial general intelligence benefits all of humanity" ([openai.com/about/](https://openai.com/about/)). Besides their mission statement, the team at OpenAI provides people around the world with strong datasets that can be used to train machine learning models. Some of famous models researched using OpenAI are [DALLE2](https://openai.com/dall-e-2/) and the [Dota 2 bot](https://openai.com/blog/dota-2/). I used a popular set to train a neural network to drive a racecar using the Markov Decision Process ([MDP](https://en.wikipedia.org/wiki/Markov_decision_process)) and behavioral cloning.
 
 # Car Racing Simulator
 The project used the CarRacing-v0 environment from OpenAI. The simulator generates an environment of states. These states are represented by 11,132 colored images which when strung together create an animation similar to a video. Each image is defined by a 96x96x3 matrix which stores the red, green, and blue (rgb) values of each pixel in the image. Near the bottom of each state, there are three bars which indicate the current speed, steering position, and braking status of the racecar. The dataset used to train the model is a set of state action pairs that when combined demonstrate a quality run through the racetrack. That is why the model uses behavioral cloning. It is able to see the current position of the car with respect to the road as a difference in color along with the current speed, steering position, and braking status of the training agent compared to the expected action to take and attempts to replicate that behavior when that scenario appears while driving.
@@ -24,11 +24,17 @@ The project used the CarRacing-v0 environment from OpenAI. The simulator generat
 The agent that drives the car is a deep neural network. The input is a 96x96x3 color image which is not flattened because the position of the pixels have significance in this application. The network's hidden layers are constructed using a series of blocks. Each block consisting of a convolution layer followed by a max pooling layer. The output of the network is a flattened set of seven instructions that the agent should follow to properly drive.
 
 0 - Do nothing
+
 1 - Turn left
+
 2 - Turn left and break
+
 3 - Turn right
+
 4 - Turn right and break
+
 5 - Accelerate
+
 6 - Break
 
 # Feature Engineering
@@ -39,9 +45,9 @@ From the 11,132 samples in the dataset, the agent learned from all of them. Unli
 <img class = "ui medium floated left image" src = "../images/OpenAIRacecar.gif">
 
 # Hyperparameter Optimization
-The hyperparameters in a machine learning model are the set of numbers that can be changed to heighten the efficiency and quality of training wihtin the model. The hyperparameters optimized in this model include the number of blocks in the network, the pooling sizes of each block, the stride of each pooling layer in the block, and the convolution layer size in the blocks. The number of blocks was tuned between 3 and 15 blocks. The pooling size was tuned between 2x2 and 4x4. The stride was tuned to either 1 or 2. The convolution layer size was adjusted between 16 and 64. Additional features that were tuned to maximize the final performance of the model were the early stopping metrics and the learning rate plateau reducer metrics. These two features monitor the progress that is made as the model is training and either changes the hyperparameters or ends the training if they notice the model is not improving.
+The hyperparameters in a machine learning model are the set of numbers that can be changed to heighten the efficiency and quality of training within the model. The hyperparameters optimized in this model include the number of blocks in the network, the pooling sizes of each block, the stride of each pooling layer in the block, and the convolution layer size in the blocks. The number of blocks was tuned between 3 and 15 blocks. The pooling size was tuned between 2x2 and 4x4. The stride was tuned to either 1 or 2. The convolution layer size was adjusted between 16 and 64. Additional features that were tuned to maximize the final performance of the model were the early stopping metrics and the learning rate plateau reducer metrics. These two features monitor the progress that is made as the model is training and either changes the hyperparameters or ends the training if they notice the model is not improving.
 
 The hyperparameters were tuned by hand using the video generated by the simulation. The evaluation metric I used was to generate 5 tracks and see if the racecar was able to successfully navigate the course without touching the grass for more than a second and not driving the track in the opposite direction. The optimal hyperparameters were nine blocks. The first two blocks have a convolution size of 24 and a max pooling shape 2x2 with a stride of 2. The next six blocks also have a convolution size of 24 and max pooling shape 2x2, but a stride of 1 instead. The last block in the hidden layer has a convolution size of 24, max pooling shape 2x2, and a stride of 2 again.
 
 # Evaluation
-The driving agent was able to stay stumbling on the road for all of the tracks with these model parameters. Based on the behavior of the car as it drives through the track oscillating back and forth is an overcompensation attempting to get to the center of the track. By watching the behavior of the racecar you can make estimations on how the racecar it is attempting to emulate went through the track. Overall, the racecar was able to make it through the track without going off track for too long. 
+The driving agent was able to stay stumbling on the road for all of the tracks with these model parameters. Based on the behavior of the racecar as it drives through the track oscillating back and forth is an overcompensation attempting to get to the center of the track. By watching the behavior of this agent you can make estimations on how the racecar it is attempting to emulate went through the track. Overall, the racecar was able to make it through the track without going off track for too long. 

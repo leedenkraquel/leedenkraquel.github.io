@@ -1,0 +1,7 @@
+.Site-Body {
+    background-color: #eaf8ff;
+    text-align: center;
+    margin-top: 250px;
+    min-height: 200px;
+    height: calc(100% - 445px);
+}

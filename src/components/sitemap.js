@@ -4,14 +4,14 @@ import "./sitemap.css";
 * Name: Sitemap
 * Author(s): Leeden Raquel
 * Inputs:
-*  children - the children in the element
+*  props - the props in the element
 * Description: organizes the elements into a sitemap
 * Returns:
 *  Sitemap - the sitemap element to be rendered
 */
-function Sitemap({children}) {
+function Sitemap(props) {
     return (
-        <a className="Sitemap">{children}</a>
+        <a className="Sitemap" href={props.href}>{props.text}</a>
     );
 }
 

@@ -3,6 +3,45 @@
     background-color: #232323 !important;
     height: 55px;
     text-align: end;
-    transition: 0.5s;
     padding-top: 20px;
+    padding-right: 30px;
+    transition: 0.5s;
+}
+
+.Navbar-menu {
+    margin-right: 35px;
+    transition: 0.5s;
+}
+
+.Navbar-menu-open {
+    margin-right: 200px;
+    transition: 0.5s;
+}
+
+.Navbar-menu:hover {
+    opacity: 70%;
+}
+
+.Navbar-menu-open:hover {
+    opacity: 70%;
+}
+
+.SideNavbar {
+    color: #ffffff;
+    background-color: #232323;
+    width: 0px;
+    height: 100%;
+    right: 0px;
+    position: fixed;
+    transition: 0.5s;
+}
+
+.SideNavbar-open {
+    color: #ffffff;
+    background-color: #232323;
+    width: 200px;
+    height: 100%;
+    right: 0px;
+    position: fixed;
+    transition: 0.5s;
 }

@@ -17,10 +17,10 @@ function Footer() {
     return (
         <div className="Footer">
             <Column>
-                <Sitemap>About</Sitemap>
-                <Sitemap>Project</Sitemap>
-                <Sitemap>Essays</Sitemap>
-                <Sitemap>Contact Me</Sitemap>
+                <Sitemap text="About" href="/" />
+                <Sitemap text="Projects" href="/projects" />
+                <Sitemap text="Essays" href="/essays" />
+                <Sitemap text="Contact Me" href="/contact" />
             </Column>
             <VertRule />
             <Column>

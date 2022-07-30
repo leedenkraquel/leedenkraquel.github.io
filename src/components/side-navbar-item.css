@@ -1,0 +1,15 @@
+.SideNavbar-obj {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 25px;
+    text-decoration: none;
+    text-align: start;
+    display: block;
+}
+
+.SideNavbar-obj:hover {
+    color: #cccccc;
+}

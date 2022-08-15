@@ -5,9 +5,9 @@ name: Static Site Generation
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "portfolio" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "portfolio" ]
 
 permissions:
   contents: write

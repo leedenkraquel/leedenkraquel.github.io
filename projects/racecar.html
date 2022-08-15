@@ -1,0 +1,52 @@
+<!-- THIS FILE IS PROGRAMATICALLY GENERATED, CHANGES TO THIS .html FILE WILL NOT SAVE-->
+        <head>
+            <title>Leeden R | Portfolio</title>
+            <link rel="stylesheet" href="../styles.css" /><link rel="stylesheet" href="about-project.css" />
+            <link rel="icon" type="image/x-icon" href="../images/favicon.png" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </head>
+    <body><div class="background_image">
+        <div class="navbar">
+            <a class="menu_obj" href="#"><img class="inverted menu_button" src="../images/menu.png" alt="menu button" /></a>
+            <a class="navbar_obj" href="/">Home</a>
+            <a class="navbar_obj" href="/projects/">Projects</a>
+            <a class="navbar_obj" href="/essays/">Essays</a>
+            <a class="navbar_obj" href="/about/">About Me</a>
+        </div>
+    <div class="site_body"><h1>OpenAI Self Driving Racecar</h1><p>"OpenAI is an AI research and deployment company. Our mssion is to ensure that artificial general intelligence benefits all of humanity" (<a class='project_link' href='https://openai.com/about/'>openai.com/about/</a>). Besides their mission statement, the team at OpenAI provides people around the world with strong datasets that can be used to train machine learning models. Some of famous models researched using OpenAI are <a class='project_link' href='https://openai.com/dall-e-2/'>DALLE2</a> and the <a class='project_link' href='https://openai.com/blog/dota-2/'>Dota 2 bot</a>. I used a popular set to train a neural network to drive a racecar using the Markov Decision Process (<a class='project_link' href='https://en.wikipedia.org/wiki/Markov_decision_process'>MDP</a>) and behavioral cloning.
+</p><h1>Car Racing Simulator
+</h1><p>The project used the CarRacing-v0 environment from OpenAI. The simulator generates an environment of states. These states are represented by 11,132 colored images which when strung together create an animation similar to a video. Each image is defined by a 96x96x3 matrix which stores the red, green, and blue (rgb) values of each pixel in the image. Near the bottom of each state, there are three bars which indicate the current speed, steering position, and braking status of the racecar. The dataset used to train the model is a set of state action pairs that when combined demonstrate a quality run through the racetrack. That is why the model uses behavioral cloning. It is able to see the current position of the car with respect to the road as a difference in color along with the current speed, steering position, and braking status of the training agent compared to the expected action to take and attempts to replicate that behavior when that scenario appears while driving.
+</p><h1>The Driving Agent
+</h1><p>The agent that drives the car is a deep neural network. The input is a 96x96x3 color image which is not flattened because the position of the pixels have significance in this application. The network's hidden layers are constructed using a series of blocks. Each block consisting of a convolution layer followed by a max pooling layer. The output of the network is a flattened set of seven instructions that the agent should follow to properly drive.
+</p><p>0 - Do nothing
+</p><p>1 - Turn left
+</p><p>2 - Turn left and break
+</p><p>3 - Turn right
+</p><p>4 - Turn right and break
+</p><p>5 - Accelerate
+</p><p>6 - Break
+</p><h1>Feature Engineering
+</h1><p>Since the neural network takes an input that is the same shape as the dataset images, the data does not need to be processed before being handed to the neural network. However, it is important to recognize some of the features present in the simulation that we humans recognize and want to teach the agent. The three bars at the bottom of the state images which represent the current speed, steering direction, and braking status, all represent a set of metadata that we as humans know are intended to teach the agent to replicate the action only under certain circumstances. The red and white banners found on the inside of each turn can be signals to the agent to turn in that direction. Finally the green grass and the gray road are the major line features that guide the racecar's path. These meta features are all engineered by humans with the intention of having the agent learn the meaning of a road and how to follow it with accuracy and speed, but all the agent sees are numbers and pixels.
+</p><p>From the 11,132 samples in the dataset, the agent learned from all of them. Unlike other training methods, the entire dataset can be used to train because the simulation can generate a track unique from any previous track the agent has ever seen. This means the test data is always clean data that the agent has never seen before.
+</p><img class = "ui medium floated left image" src = "../images/open-ai-racecar.gif">
+<h1>Hyperparameter Optimization
+</h1><p>The hyperparameters in a machine learning model are the set of numbers that can be changed to heighten the efficiency and quality of training within the model. The hyperparameters optimized in this model include the number of blocks in the network, the pooling sizes of each block, the stride of each pooling layer in the block, and the convolution layer size in the blocks. The number of blocks was tuned between 3 and 15 blocks. The pooling size was tuned between 2x2 and 4x4. The stride was tuned to either 1 or 2. The convolution layer size was adjusted between 16 and 64. Additional features that were tuned to maximize the final performance of the model were the early stopping metrics and the learning rate plateau reducer metrics. These two features monitor the progress that is made as the model is training and either changes the hyperparameters or ends the training if they notice the model is not improving.
+</p><p>The hyperparameters were tuned by hand using the video generated by the simulation. The evaluation metric I used was to generate 5 tracks and see if the racecar was able to successfully navigate the course without touching the grass for more than a second and not driving the track in the opposite direction. The optimal hyperparameters were nine blocks. The first two blocks have a convolution size of 24 and a max pooling shape 2x2 with a stride of 2. The next six blocks also have a convolution size of 24 and max pooling shape 2x2, but a stride of 1 instead. The last block in the hidden layer has a convolution size of 24, max pooling shape 2x2, and a stride of 2 again.
+</p><h1>Evaluation
+</h1><p>The driving agent was able to stay stumbling on the road for all of the tracks with these model parameters. Based on the behavior of the racecar as it drives through the track oscillating back and forth is an overcompensation attempting to get to the center of the track. By watching the behavior of this agent you can make estimations on how the racecar it is attempting to emulate went through the track. Overall, the racecar was able to make it through the track without going off track for too long. </p></div>
+        <div class="footer">
+            <div class="footer_col">
+                <a class="sitemap_obj" href="/">Home</a>
+                <a class="sitemap_obj" href="/projects/">Projects</a>
+                <a class="sitemap_obj" href="/essays/">Essays</a>
+                <a class="sitemap_obj" href="/about/">About Me</a>
+            </div>
+            <div class="footer_col">
+                <a href="https://github.com/leedenkraquel"><img class="inverted footer_icon" src="../images/github.png" alt="github logo" /></a>
+                <a href="https://www.linkedin.com/in/leeden-raquel-398309183/"><img class="inverted footer_icon" src="../images/linkedin.png" alt="linkedin logo" /></a>
+            </div>
+            <div class="footer_col">
+                <p>Quote</p>
+            </div>
+        </div>
+    </div></body>

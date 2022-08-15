@@ -1,0 +1,66 @@
+<!-- THIS FILE IS PROGRAMATICALLY GENERATED, CHANGES TO THIS .html FILE WILL NOT SAVE-->
+        <head>
+            <title>Leeden R | Portfolio</title>
+            <link rel="stylesheet" href="../styles.css" /><link rel="stylesheet" href="about-project.css" />
+            <link rel="icon" type="image/x-icon" href="../images/favicon.png" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        </head>
+    <body><div class="background_image">
+        <div class="navbar">
+            <a class="menu_obj" href="#"><img class="inverted menu_button" src="../images/menu.png" alt="menu button" /></a>
+            <a class="navbar_obj" href="/">Home</a>
+            <a class="navbar_obj" href="/projects/">Projects</a>
+            <a class="navbar_obj" href="/essays/">Essays</a>
+            <a class="navbar_obj" href="/about/">About Me</a>
+        </div>
+    <div class="site_body"><h1>Hand Crafted Neural Network</h1><p>I created a neural nework from scratch. This neural network recognizes articles of clothing from the <a class='project_link' href='http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/'>fashion mnist dataset</a>. The significance of this simple neural network classifier is that it is constructed without the use of famous libraries such as Keras, Scikit Learn, Pytorch, etc.
+</p><h1>The Fashion MNIST Dataset
+</h1><p>The MNIST Fashion dataset includes 70,000 samples of 28x28 grayscale images of clothing articles. Each of these samples are labeled as one of ten classes. The classes are as follows:
+</p><img class = "ui medium floated right image" src = "../images/bad-neural-network.png">
+<p>0 - T-shirt/top
+</p><p>1 - Trouser
+</p><p>2 - Pullover
+</p><p>3 - Dress
+</p><p>4 - Coat
+</p><p>5 - Sandal
+</p><p>6 - Shirt
+</p><p>7 - Sneaker
+</p><p>8 - Bag
+</p><p>9 - Ankle Boot
+</p><h1>The Neural Network
+</h1><p>The simple neural network contained only one hidden layer. The input is a 784x1 array representing the pixels in a flattened sample image. This hidden layer has a size between 1 and 29 neurons. The hidden layer uses a relu function as it's non-linear function. This prevents the values of the weights from dipping below zero. The neural network outputs a 10x1 array which represented a set probabilities that the neural network uses as its prediction for the label of the sample. The output layer uses a softmax function to make sure the probabilities in the output all sum to one.
+</p><h1>Feature Engineering 
+</h1><p>Before handing the dataset into the neural network, the data has to be flattened from a 28x28 grayscale image to a 784x1 array of number which represents the value of each pixel.
+</p><img class = "ui medium floated left image" src = "../images/neuron-optimization.png">
+<p>Of the 70,000 samples, 60,000 samples were used as a training set and the remaining 10,000 samples were considered the clean testing set. The clean testing set is important to analyze the neural network using data that it has never seen before. 
+</p><h1>Hyperparameter Optimization
+</h1><p>The hyperparameters in a machine learning model are the set of numbers that can be changed to heighten the efficiency and quality of training within the model. The hyperparameters in the neural network include learning rate, batch size, max epochs, and hidden layer shape. Learning rate controls the magnitude of the weight adjustments for each epoch of training. The batch size determines the number of samples that the neural network trains on at a time. The max epochs determines the maximum number of times the neural network is trained. The hidden layer shape determines the number of neurons in the hidden layer. The learning rate was tuned between 0.01 and 1e-10 in intervals of a magnitude of 1/10. The batch size was tuned between 1 and 500 samples at a time in intervals of 10. The max epochs was tuned between 10 and 10000 epochs with intervals of 1000. The hidden layer shape was tuned between 1 and 29 neurons with intervals of 1.
+</p><p>The hyperparameters were optimized by hand, evaluating the cross entropy loss over time as the network trained. After trying each value for the hyperparameters, the best values were found. The best hyperparameters were found to be the following:
+</p><img class = "ui medium floated right image" src = "../images/neuron-optimization-pred.png">
+<p style='margin-left: 40px'>Learning Rate: 1e-10
+</p><p style='margin-left: 40px'>Batch Size: 100
+</p><p style='margin-left: 40px'>Max Epochs: 6000
+</p><p style='margin-left: 40px'>Hidden Layer Shape: 25+
+</p><p>The learning rate of 1e-10 prevented the neural network from becoming unstable while training but allowed the weights to still be updated at a good enough pace to save time with epochs. The batch size turned out to be 100 simply because my system could not process any larger batch sizes. The best number of max epochs turned out to be 6000 as any epochs beyond that would not have a noticable effect on loss. Lastly, the number of hidden layers did not seem to significantly change the rate that the loss changed, but significantly increased the accuracy of the predictions as the number of neurons surpassed 25.
+</p><h1>Evaluation
+</h1><p>The neural network was able to successfully classify the sample 96% of the time. However, I observed some patterns: 
+</p><p style='margin-left: 40px'>High rates of confusion between the sandal (5th) class and the sneaker (7th) class. They would often get swapped with a higher bias to predict a sandal over a sneaker. 
+</p><p style='margin-left: 40px'>Confusion between the pullovers (2nd) class, coats (4th) class, and shirts (6th) class. But the networks with greater neurons begin to grow a stronger capability of telling the difference between these two. 
+</p><p style='margin-left: 40px'>Extreme accuracy in all the other classes which could be seen as overfitting.
+</p></div>
+        <div class="footer">
+            <div class="footer_col">
+                <a class="sitemap_obj" href="/">Home</a>
+                <a class="sitemap_obj" href="/projects/">Projects</a>
+                <a class="sitemap_obj" href="/essays/">Essays</a>
+                <a class="sitemap_obj" href="/about/">About Me</a>
+            </div>
+            <div class="footer_col">
+                <a href="https://github.com/leedenkraquel"><img class="inverted footer_icon" src="../images/github.png" alt="github logo" /></a>
+                <a href="https://www.linkedin.com/in/leeden-raquel-398309183/"><img class="inverted footer_icon" src="../images/linkedin.png" alt="linkedin logo" /></a>
+            </div>
+            <div class="footer_col">
+                <p>Quote</p>
+            </div>
+        </div>
+    </div></body>

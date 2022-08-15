@@ -1,0 +1,42 @@
+{
+    "experience": [
+        {
+            "company": "UH Information Technology Services",
+            "position": "IT Support",
+            "website": "http://www.hawaii.edu/its/",
+            "startDate": "03/2022",
+            "endDate": "Present",
+            "highlights": [
+                "Troubleshoot software, hardware and networking issues over the phone",
+                "Train end users on hardware functionality and software programs",
+                "Resolve logged errors systematically",
+                "Documenting process and performance diagnostics for datacenter"
+            ]
+        },
+        {
+          "company": "Evercast Ventures",
+          "position": "Mobile App Design and Development Intern",
+          "website": "https://evercast.life/",
+          "startDate": "05/2021",
+          "endDate": "01/2022",
+          "highlights": [
+            "Work with, clean, organize, and improve existing code base",
+            "Collaborate with other subsystems using agile project management for efficient implementation",
+            "Research and test design solutions to problems while maintaining appropriate documentation"
+          ]
+        },
+        {
+          "company": "UH Information Technology Services",
+          "position": "Lab Assistant",
+          "website": "http://www.hawaii.edu/its/",
+          "startDate": "09/2018",
+          "endDate": "03/2022",
+          "highlights": [
+            "Assist with user requests and issues",
+            "Resolve lab related malfunctions",
+            "Perform routine maintenance on lab equipment",
+            "Monitor supplies and handle shortages"
+          ]
+        }
+    ]
+}

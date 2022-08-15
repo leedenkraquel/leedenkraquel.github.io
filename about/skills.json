@@ -1,0 +1,33 @@
+{
+    "skills": [
+        {
+            "name": "Programming Languages",
+            "level": "Intermediate",
+            "summary": "I have studied and am proficient with many programming languages",
+            "keywords": [
+                "C",
+                "C++",
+                "C#",
+                "HTML",
+                "CSS",
+                "Java",
+                "Javascript",
+                "Python",
+                "dart"
+            ]
+        },
+        {
+            "name": "Software Development Frameworks",
+            "level": "Intermediate",
+            "summary": "I have used and built projects with many software development frameworks",
+            "keywords": [
+                "MongoDB",
+                "ReactJS",
+                "ReactNative",
+                "Flutter",
+                "Amazon Web Services",
+                "Firebase"
+            ]
+        }
+    ]
+}

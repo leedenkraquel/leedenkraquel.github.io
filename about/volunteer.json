@@ -1,0 +1,31 @@
+{
+    "volunteer": [
+        {
+            "organization": "Hawaii VRC",
+            "website": "https://www.robotevents.com/robot-competitions/vex-robotics-competition",
+            "position": "Volunteer Judge",
+            "date": "04/2021",
+            "summary": "Interview middle school and high school students on their education of their robot and the engineering design process.",
+            "highlights": [
+            ]
+        },
+        {
+            "organization": "Hawaii Botball",
+            "website": "https://www.kipr.org/botball",
+            "position": "Volunteer Judge",
+            "date": "04/2019",
+            "summary": "Interview middle school students on their education of their robot and the engineering design process.",
+            "highlights": [
+            ]
+        },
+        {
+            "organization": "Hawaii VRC",
+            "website": "https://www.robotevents.com/robot-competitions/vex-robotics-competition",
+            "position": "Volunteer Judge",
+            "date": "01/2018",
+            "summary": "Interview middle school students on their education of their robot and the engineering design process.",
+            "highlights": [
+            ]
+        }
+    ]
+}

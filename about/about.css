@@ -1,0 +1,46 @@
+h2 {
+    color: #444;
+    margin-bottom: 0;
+}
+.profile_picture {
+    float: left;
+    border-radius: 10%;
+    margin-top: 1em;
+    margin-right: 1em;
+    height: 15em;
+}
+.about_body {
+    font-size: 18;
+    min-height: 10em;
+    margin-bottom: 3em;
+    padding-left: 1em;
+    padding-right: 1em;
+    line-height: 1.5em;
+}
+.title {
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+.date {
+    color: #777;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.website {
+    color: #06f;
+    text-decoration: none;
+    overflow-wrap: break-word;
+}
+.summary {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.highlights {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}

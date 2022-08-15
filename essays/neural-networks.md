@@ -6,7 +6,7 @@ date: 2022-08
 labels:
   - Machine Learning
   - Artificial Intelligence
-summary: 
+summary: Since the creation of the computer in 1946, engineers have been innovating and improving on the basic design to the point where these computers are incomparable to those of the past. In the past, computers were considered to be tools to assist people in making complex calculations so that they might to their job better. In more recent years, we have developed computers to the point were we can expect them to do much more complex calculations. The most desirable of which is making decisions.
 ---
 
 # Machines can Learn!

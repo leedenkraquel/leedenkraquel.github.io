@@ -5,16 +5,16 @@ title: Who uses UI?
 date: 2021-02
 labels:
   - Software Engineering
-  - UI
+  - User Interface
   - Web Design
-summary: This is a webpage, and a rather basic one at it. Many people who peruse the web rarely see a webpage that looks like this because people who develop webpages usually have standards for themselves. Webpages are known to look much better than this and have much more color, style, attitude, and pazzazz. Take Google.com for example. This webpage is often a simple webpage but on rather frequent occasions becomes a digital mural to some day, person, or event. This is what is known as UI design. A user-interface design, made to interact with the user. However, if you've ever tried to make a webpage yourself, a simple website like the Google has made famous is not necessarily a simple task.
+summary: This is a webpage, and a rather basic one at it. Many people who peruse the web rarely see a webpage that looks like this because people who develop webpages usually have standards for themselves. Webpages are known to look much better than this and have much more color, style, attitude, and pizzazz. Take Google.com for example. This webpage is often a simple webpage but on rather frequent occasions becomes a digital mural to some day, person, or event. This is what is known as UI design. A user-interface design, made to interact with the user. However, if you've ever tried to make a webpage yourself, a simple website like the Google has made famous is not necessarily a simple task.
 ---
 
 # UI Design
 Have you ever seen a webpage that looks like this:
 <img class="ui fluid bordered image" src="../images/basic-webpage-example.PNG">
 
-This is a webpage, and a rather basic one at it. Many people who peruse the web rarely see a webpage that looks like this because people who develop webpages usually have standards for themselves. Webpages are known to look much better than this and have much more color, style, attitude, and pazzazz. Take [Google.com](google.com) for example. This webpage is often a simple webpage but on rather frequent occasions becomes a digital mural to some day, person, or event. This is what is known as UI design. A user-interface design, made to interact with the user. However, if you've ever tried to make a webpage yourself, a simple website like the Google has made famous is not necessarily a simple task.
+This is a webpage, and a rather basic one at it. Many people who peruse the web rarely see a webpage that looks like this because people who develop webpages usually have standards for themselves. Webpages are known to look much better than this and have much more color, style, attitude, and pizzazz. Take [Google.com](google.com) for example. This webpage is often a simple webpage but on rather frequent occasions becomes a digital mural to some day, person, or event. This is what is known as UI design. A user-interface design, made to interact with the user. However, if you've ever tried to make a webpage yourself, a simple website like the Google has made famous is not necessarily a simple task.
 
 # Webpage Design
 

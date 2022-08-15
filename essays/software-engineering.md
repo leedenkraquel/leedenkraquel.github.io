@@ -5,15 +5,15 @@ title: The World is Binary
 date: 2021-01
 labels:
   - Software Engineering
-summary: My name is Leeden Raquel. I am a student at the University of Hawaii at Manoa(UH). At UH I am majoring in computer science with a focus on data science. When I first became a student at UH, I was an electrical engineering major but decided to shift my attention when I learned that electrical engineering was not what I believed it was. With a strong backgroung in programming and computers in general, I decided to change my major to computer science. 
+summary: My name is Leeden Raquel. I am a student at the University of Hawaii at Manoa (UHM). At UH I am majoring in computer science with a focus on data science. When I first became a student at UH, I was an electrical engineering major but decided to shift my attention when I learned that electrical engineering was not what I believed it was. With a strong background in programming and computers in general, I decided to change my major to computer science. 
 ---
 <img class="ui small floated right rounded image" src="../images/engr-design-proc.png">
 
 # Who Am I?
-My name is Leeden Raquel. I am a student at the University of Hawaii at Manoa(UH). At UH I am majoring in computer science with a focus on data science. When I first became a student at UH, I was an electrical engineering major but decided to shift my attention when I learned that electrical engineering was not what I believed it was. With a strong backgroung in programming and computers in general, I decided to change my major to computer science. 
+My name is Leeden Raquel. I am a student at the University of Hawaii at Manoa (UHM). At UH I am majoring in computer science with a focus on data science. When I first became a student at UH, I was an electrical engineering major but decided to shift my attention when I learned that electrical engineering was not what I believed it was. With a strong background in programming and computers in general, I decided to change my major to computer science. 
 
 # My Background
-All throughout my childhood until I graduated highschool I had been engained into the engineering design process. Initially being exposed to a Lego Mindstorm robotics program in fourth grade at Waiakea Waena Elementary School, I became familiar with the six steps of engineering life: defining the problem, do research, define criteria, develop solutions, test solutions, and improve on your solutions. This process became the center of my life for the next eight years. From elementary school all the way to my graduation from Pearl City High School I have been the the school's robotics programs learning the start of engineering and software development. These programs provided me the opportunity to participate in many competitions, seminars, and community services.
+All throughout my childhood until I graduated highschool I had been engrained into the engineering design process. Initially being exposed to a Lego Mindstorm robotics program in fourth grade at Waiakea Waena Elementary School, I became familiar with the six steps of engineering life: defining the problem, do research, define criteria, develop solutions, test solutions, and improve on your solutions. This process became the center of my life for the next eight years. From elementary school all the way to my graduation from Pearl City High School I have been the the school's robotics programs learning the start of engineering and software development. These programs provided me the opportunity to participate in many competitions, seminars, and community services.
 
 <img class="ui medium centered rounded image" src="../images/uh-plaque.png">
 

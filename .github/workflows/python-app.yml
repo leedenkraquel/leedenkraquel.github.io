@@ -39,7 +39,7 @@ jobs:
     - name: Create Web Pages
       run: | 
         python deploy.py
-    - name: GIT commit Build to Main
+    - name: GIT commit Build
       run: |
         git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
         git config --global user.email "leedenkraquel@users.noreply.github.com"

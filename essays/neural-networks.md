@@ -21,7 +21,7 @@ Intelligence is defined as the ability to gain and apply new skills and knowledg
 Engineers have learned that nature can provide us with innovations like velcro which was created by [mimicking burrs of plants](https://www.microphotonics.com/biomimicry-burr-invention-velcro/). Computer engineering makes no exception. Humans have discovered mathematics and made computers that can do it much faster. Just as humans are able to quickly discover patterns in the world, computers should likewise recognize the patterns rapidly. 
 
 
-<img class="ui medium floated right rounded image" src="../images/honeycomb-pattern.jpg" />
+<img class="ui small floated right rounded image" src="../images/honeycomb-pattern.jpg" />
 
 Whether you know it or not, the patterns we see in the world are geometrically defined as a repeated sequence of numbers, shapes, colors, etc. Often these sequences are able to be described mathematically. That is where computers come in. By translating problems into an abstraction of math, we can make predictions using data collected from the problem. This abstraction allows computers use mathematical models to solve many different prediction based problems. So there we have it, the goal of modern machine learning (ML) is to find mathematical models that make good predictions. Essentially the same as statistics aside from some minor qualifications that I will not mention in this essay.
 

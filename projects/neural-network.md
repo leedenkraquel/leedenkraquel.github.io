@@ -13,7 +13,7 @@ labels:
 summary: A simple neural network without the use of common machine learning libraries.
 ---
 
-I created a neural nework from scratch. This neural network recognizes articles of clothing from the [fashion mnist dataset](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/). The significance of this simple neural network classifier is that it is constructed without the use of famous libraries such as Keras, Scikit Learn, Pytorch, etc.
+I created a neural network from scratch. This neural network recognizes articles of clothing from the [fashion mnist dataset](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/). The significance of this simple neural network classifier is that it is constructed without the use of famous libraries such as Keras, Scikit Learn, Pytorch, etc.
 
 # The Fashion MNIST Dataset
 The MNIST Fashion dataset includes 70,000 samples of 28x28 grayscale images of clothing articles. Each of these samples are labeled as one of ten classes. The classes are as follows:
@@ -52,7 +52,7 @@ The hyperparameters were optimized by hand, evaluating the cross entropy loss ov
 > Batch Size: 100
 > Max Epochs: 6000
 > Hidden Layer Shape: 25+
-The learning rate of 1e-10 prevented the neural network from becoming unstable while training but allowed the weights to still be updated at a good enough pace to save time with epochs. The batch size turned out to be 100 simply because my system could not process any larger batch sizes. The best number of max epochs turned out to be 6000 as any epochs beyond that would not have a noticable effect on loss. Lastly, the number of hidden layers did not seem to significantly change the rate that the loss changed, but significantly increased the accuracy of the predictions as the number of neurons surpassed 25.
+The learning rate of 1e-10 prevented the neural network from becoming unstable while training but allowed the weights to still be updated at a good enough pace to save time with epochs. The batch size turned out to be 100 simply because my system could not process any larger batch sizes. The best number of max epochs turned out to be 6000 as any epochs beyond that would not have a noticeable effect on loss. Lastly, the number of hidden layers did not seem to significantly change the rate that the loss changed, but significantly increased the accuracy of the predictions as the number of neurons surpassed 25.
 
 # Evaluation
 The neural network was able to successfully classify the sample 96% of the time. However, I observed some patterns: 

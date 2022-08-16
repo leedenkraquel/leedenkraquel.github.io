@@ -13,7 +13,7 @@
             <a class="navbar_obj" href="/essays/">Essays</a>
             <a class="navbar_obj" href="/about/">About Me</a>
         </div>
-    <div class="site_body"><h1>Hand Crafted Neural Network</h1><p>I created a neural nework from scratch. This neural network recognizes articles of clothing from the <a class='project_link' href='http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/'>fashion mnist dataset</a>. The significance of this simple neural network classifier is that it is constructed without the use of famous libraries such as Keras, Scikit Learn, Pytorch, etc.
+    <div class="site_body"><h1>Hand Crafted Neural Network</h1><p>I created a neural network from scratch. This neural network recognizes articles of clothing from the <a class='project_link' href='http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/'>fashion mnist dataset</a>. The significance of this simple neural network classifier is that it is constructed without the use of famous libraries such as Keras, Scikit Learn, Pytorch, etc.
 </p><h1>The Fashion MNIST Dataset
 </h1><p>The MNIST Fashion dataset includes 70,000 samples of 28x28 grayscale images of clothing articles. Each of these samples are labeled as one of ten classes. The classes are as follows:
 </p><img class = "ui medium floated right image" src = "../images/bad-neural-network.png">
@@ -41,7 +41,7 @@
 </p><p style='margin-left: 40px'>Batch Size: 100
 </p><p style='margin-left: 40px'>Max Epochs: 6000
 </p><p style='margin-left: 40px'>Hidden Layer Shape: 25+
-</p><p>The learning rate of 1e-10 prevented the neural network from becoming unstable while training but allowed the weights to still be updated at a good enough pace to save time with epochs. The batch size turned out to be 100 simply because my system could not process any larger batch sizes. The best number of max epochs turned out to be 6000 as any epochs beyond that would not have a noticable effect on loss. Lastly, the number of hidden layers did not seem to significantly change the rate that the loss changed, but significantly increased the accuracy of the predictions as the number of neurons surpassed 25.
+</p><p>The learning rate of 1e-10 prevented the neural network from becoming unstable while training but allowed the weights to still be updated at a good enough pace to save time with epochs. The batch size turned out to be 100 simply because my system could not process any larger batch sizes. The best number of max epochs turned out to be 6000 as any epochs beyond that would not have a noticeable effect on loss. Lastly, the number of hidden layers did not seem to significantly change the rate that the loss changed, but significantly increased the accuracy of the predictions as the number of neurons surpassed 25.
 </p><h1>Evaluation
 </h1><p>The neural network was able to successfully classify the sample 96% of the time. However, I observed some patterns: 
 </p><p style='margin-left: 40px'>High rates of confusion between the sandal (5th) class and the sneaker (7th) class. They would often get swapped with a higher bias to predict a sandal over a sneaker. 

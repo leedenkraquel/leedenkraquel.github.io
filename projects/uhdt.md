@@ -12,7 +12,7 @@ labels:
 summary: My subsystem and I developed a object detection software using machine learning.
 ---
 
-University of Hawaii Drone Technologies is a vertically integrated project made up of two divisions each consisting of multiple subsystems. The objective of this project is to reserach and develop technologies for different types of drones. The project has competed in the Annual Student Unmanned Aerial Systems Competition (SUAS) where the unmanned air vehicles (UAV) are expected to complete a set of challenges to score points in a competition style format.
+University of Hawaii Drone Technologies is a vertically integrated project made up of two divisions each consisting of multiple subsystems. The objective of this project is to research and develop technologies for different types of drones. The project has competed in the Annual Student Unmanned Aerial Systems Competition (SUAS) where the unmanned air vehicles (UAV) are expected to complete a set of challenges to score points in a competition style format.
 
 <img class="ui small left floated rounded image" src="../images/uhdt-1.jpg">
 

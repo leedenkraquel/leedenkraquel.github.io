@@ -25,7 +25,7 @@ I wanted to put a large focus on documentation when doing this project and had r
 <img class = "ui fluid image" src = "../images/to-do-list-landing-1.PNG">
 
 # Production Documentation
-Once the project guidelines were defined, I moved on to planning the creation process of the web app. These documents included the process documentation, software architecture design overview, and of course the project roadmap. These documents described the why the project is bring done, when it should be done, what tools are going to be used, coding standards, how the application should look and behave, and some step by step problem solving journal notes.
+Once the project guidelines were defined, I moved on to planning the creation process of the web app. These documents included the process documentation, software architecture design overview, and of course the project road map. These documents described the why the project is bring done, when it should be done, what tools are going to be used, coding standards, how the application should look and behave, and some step by step problem solving journal notes.
 
 <img class = "ui fluid image" src = "../images/to-do-list-create-task.PNG">
 
@@ -34,10 +34,10 @@ After the project was completed, the last thing to do was get the project into t
 
 <img class = "ui large right floated image" src = "../images/to-do-list-landing-2.PNG">
     
-    Criteria 1 - User understood the function and purpose of the application without instruction.
-    Criteria 2 - User did not run into application breaking bugs. If they did, were they easily resolvable.
-    Criteria 3 - User retention and advocacy. Would the user use it beyond the test stage?
-    Criteria 4 - Rating for functionality and ease of use.
+> Criteria 1 - User understood the function and purpose of the application without instruction.
+> Criteria 2 - User did not run into application breaking bugs. If they did, were they easily resolvable.
+> Criteria 3 - User retention and advocacy. Would the user use it beyond the test stage?
+> Criteria 4 - Rating for functionality and ease of use.
 
 # Summary
 During the documentation process, I was extremely confident after a few days. I had accomplished many of the tasks that I had planned. These tasks were simple, involving basic UI and UX elements to render to the screen and navigate. The problem came when it was time to implement AWS into the project. This took weeks longer than I had expected it to. In the future, I will have a better understanding of this and other web services so that I can better handle the challenge of using them, but for this project I had to shrink the scope of the project to finish closer to the deadline date. This meant no mobile version of the application. I learned a lot from this project including documentation styles, basic UI and UX principles, database security procedures, and how to best manage time across multiple tasks.

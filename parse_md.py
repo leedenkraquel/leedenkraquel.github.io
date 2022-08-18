@@ -14,6 +14,7 @@ class Markdown():
 		self.labels = []
 		self.summary = ""
 		self.content = ""
+		self.hide = False
 
 	def __str__(self):
 		output = "---\n"
@@ -54,6 +55,9 @@ class Markdown():
 
 	def get_summary(self):
 		return self.summary
+	
+	def get_hidden(self):
+		return self.hide
 
 ###
 # Author(s): Leeden Raquel
@@ -84,6 +88,8 @@ def parse_md(filedir):
 			output.date = line.split(":")[1][1:-1]
 		elif "summary" in line:
 			output.summary = line.split(":")[1][1:-1]
+		elif "hide" in line:
+			output.hide = line.split(":")[1][1:-1]
 		elif " - " in line:
 			output.labels.append(line.split("-")[1][1:-1])
 	

@@ -29,7 +29,8 @@ def create_essay_cards (directory, essay_files):
             essay_card += '<p class="summary">' + essay_obj.get_summary() + '</p>'
             essay_card += '<div class="labels_section"><p class="label">' + '</p><p class="label">'.join(essay_obj.get_labels()) + '</p>'
             essay_card += '</div></div></a>'
-            essay_cards.append((essay_obj.get_date(), essay_card))
+            if essay_obj.get_hidden() == False:
+                essay_cards.append((essay_obj.get_date(), essay_card))
             create_about_essay_page('essays/' + essay[:-3] + ".html", essay_obj)
     
     essay_cards = sorted(essay_cards, reverse = True)

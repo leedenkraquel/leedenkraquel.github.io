@@ -30,7 +30,8 @@ def create_project_cards (directory, project_files):
             project_card += '<div class="project_card_overlay"><p class="summary">' + project_obj.get_summary() + '</p>'
             project_card += '<p class="label">' + '</p><p class="label">'.join(project_obj.get_labels()) + '</p>'
             project_card += '</div></div></a>'
-            project_cards.append((project_obj.get_date(), project_card))
+            if project_obj.get_hidden() == False:
+                project_cards.append((project_obj.get_date(), project_card))
             create_about_project_page('projects/' + project[:-3] + ".html", project_obj)
     
     project_cards = sorted(project_cards, reverse = True)

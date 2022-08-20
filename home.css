@@ -13,6 +13,8 @@ h2 {
     padding-left: 2em;
     padding-right: 2em;
     line-height: 1.5em;
+    color: teal;
+    font-weight: bold;
 }
 .title {
     margin-top: 1em;

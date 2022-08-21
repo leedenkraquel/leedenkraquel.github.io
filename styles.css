@@ -68,7 +68,6 @@ body {
     }
     .navbar_obj {
         display: block; 
-        font-size: 0;
         margin-left: 0;
         margin-right: 0;
         padding-bottom: 0.5em;
@@ -78,7 +77,7 @@ body {
         width: 7em;
     }
     .navbar:focus-within .navbar_obj {
-        font-size: 20;
+        font-size: 1.2rem;
     }
     .menu_obj {
         display: block;
@@ -106,7 +105,7 @@ body {
     grid-template-columns: auto auto auto; 
     justify-items: center;
     align-items: center;
-    font-size: 14;
+    font-size: 0.9rem;
     padding-top: 1em;
     padding-bottom: 1em;
 }
@@ -130,7 +129,7 @@ body {
     height: 2em;
     padding: 1em;
 }
-.inverted:hover {
+.footer_icon:hover {
     -webkit-mask-image: linear-gradient(black, transparent)
 }
 .inverted {

@@ -15,8 +15,10 @@ def create_home_page ():
     essay_files = listdir("essays/")
 
     home_page = '''
-        <h1 class="centered" style="margin-top: 4em">Leeden Raquel</h1>
-        <p class="centered about_body">Software Developer</p>
+        <div>
+            <h1 class="centered about_header">Leeden Raquel</h1>
+            <p class="centered about_body">Software Developer</p>
+        </div>
         <div class="hr"></div>
         <h2>Projects</h2>
         <div class="project_section">

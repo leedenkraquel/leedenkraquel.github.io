@@ -1,5 +1,4 @@
 body {
-    /*background-color: #eaf8ff;*/
     font-family: Arial;
     margin: 0;
     position: absolute;
@@ -9,21 +8,18 @@ body {
     right: 0;
 }
 .background_image {
-    /*background-image: linear-gradient(120deg, #a0ddfc, #fff);*/
+    background-color: #000;
     height: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
 }
 .navbar {
-    color: #fff;
-    background-color: #232323;
     left: 0;
     right: 0;
     height: 2em;
     padding-top: 2em;
     padding-bottom: 1em;
-    padding-right: 3em;
-    text-align: end;
+    text-align: center;
     transition: 0.5s;
     z-index: 2;
 }
@@ -31,16 +27,17 @@ body {
     display: inline;
     color: #fff;
     margin-right: 2em;
+    margin-left: 2em;
     padding: 0.5em;
-    font-size: 16;
+    font-size: 1.2rem;
     text-decoration: none;
+    transition: 0.5s;
 }
 .navbar_obj:hover {
     color: teal;
 }
 .menu_obj {
     display: none;
-    background-color: #232323;
     position: absolute;
     top: 0;
     right: 0;
@@ -49,6 +46,7 @@ body {
     transition: 0.5s;
 }
 .site_body {
+    color: #fff;
     padding-top: 3em;
     padding-left: 5em;
     padding-right: 5em;
@@ -71,6 +69,7 @@ body {
     .navbar_obj {
         display: block; 
         font-size: 0;
+        margin-left: 0;
         margin-right: 0;
         padding-bottom: 0.5em;
         padding-left: 0.3em;
@@ -101,7 +100,6 @@ body {
     }
 }
 .footer {
-    background-color: #232323;
     color: #fff;
     height: 6em;
     display: grid;
@@ -123,16 +121,23 @@ body {
     display: block;
     color: #fff;
     text-decoration: none;
+    transition: 0.5s;
+}
+.sitemap_obj:hover {
+    color: teal;
 }
 .footer_icon {
     height: 2em;
     padding: 1em;
 }
+.inverted:hover {
+    -webkit-mask-image: linear-gradient(black, transparent)
+}
 .inverted {
     filter: invert(1);
 }
 .hr {
-    border-bottom: 2px solid #555;
+    border-bottom: 2px solid #fff;
     opacity: 0.1;
 }
 
@@ -183,4 +188,11 @@ body {
 .centered {
     display: block;
     margin: auto;
+}
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

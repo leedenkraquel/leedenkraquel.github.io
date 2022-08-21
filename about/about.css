@@ -1,5 +1,5 @@
 h2 {
-    color: #444;
+    color: #fffa;
     margin-bottom: 0;
 }
 .profile_picture {
@@ -17,12 +17,16 @@ h2 {
     }
 } 
 .about_body {
-    font-size: 18;
+    color: #fff;
+    font-size: 1.5rem;
     min-height: 10em;
     margin-bottom: 3em;
     padding-left: 1em;
     padding-right: 1em;
     line-height: 1.5em;
+}
+.section {
+    color: #fff;
 }
 .title {
     margin-top: 1em;

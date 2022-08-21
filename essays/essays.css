@@ -16,13 +16,6 @@
     margin-top: 1px;
     margin-left: 20px;
 }
-.cover_image {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 300px;
-    z-index: 0;
-}
 .summary {
     color: #fff;
     height: 63%;
@@ -74,16 +67,17 @@
     }
 }
 .essay_card {
-    background-color: #333;
+    background-color: #111;
     padding-top: 1em;
     padding-bottom: 1em;
     height: 380px;
     width: 300px;
     position: relative;
+    transition: 0.5s;
 }
 .essay_card:hover {
     transform: translate(2px, -2px);
-    box-shadow: -2px 2px 10px #222
+    box-shadow: -2px 2px 10px #333
 }
 .essay_link {
     text-decoration: none;

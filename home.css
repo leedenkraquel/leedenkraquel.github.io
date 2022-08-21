@@ -1,13 +1,18 @@
 h2 {
-    color: #888;
+    color: #fffa;
     margin-bottom: 1em;
 }
 .centered {
     text-align: center;
     justify-content: center;
 }
+.about_header {
+    color: #fff;
+    margin-top: 4em;
+    font-size: 4rem;
+}
 .about_body {
-    font-size: 18;
+    font-size: 2rem;
     min-height: 10em;
     margin-bottom: 3em;
     padding-left: 2em;

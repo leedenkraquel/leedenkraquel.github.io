@@ -5,6 +5,7 @@ image: images/vex-logo.png
 title: Vex Robotics Competition
 permalink: projects/Vex Robotics Competition
 date: 2017-09
+hide: True
 labels:
   - Robotics
   - C

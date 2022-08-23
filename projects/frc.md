@@ -5,6 +5,7 @@ image: images/frc-logo.png
 title: First Robotics Competition
 permalink: projects/First Robotics Competition
 date: 2017-01
+hide: True
 labels:
   - Robotics
   - C++

@@ -7,13 +7,11 @@
             "keywords": [
                 "C",
                 "C++",
-                "C#",
                 "HTML",
                 "CSS",
                 "Java",
                 "Javascript",
-                "Python",
-                "Dart"
+                "Python"
             ]
         },
         {
@@ -21,11 +19,9 @@
             "level": "Intermediate",
             "summary": "I have used and built projects with many software development frameworks",
             "keywords": [
-                "MongoDB",
                 "ReactJS",
                 "ReactNative",
                 "Flutter",
-                "Amazon Web Services",
                 "Firebase"
             ]
         }

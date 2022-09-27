@@ -141,6 +141,9 @@ body {
     border-bottom: 2px solid #fff;
     opacity: 0.1;
 }
+.project_link {
+    color: #06f;
+}
 
 .ui:active {
     position: absolute;

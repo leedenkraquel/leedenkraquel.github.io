@@ -101,7 +101,7 @@ def parse_md(filedir):
 			
 			for i in range(len(anchor_indexes) -1, -1, -1):
 				ref_index = [anchor_indexes[i][1]+1, line.index(")", anchor_indexes[i][1]+1)]
-				line = line[:anchor_indexes[i][0]] + "<a class='project_link' href='" + line[ref_index[0]+1:ref_index[1]] + "'>" + line[anchor_indexes[i][0]+1:anchor_indexes[i][1]] + "</a>" + line[ref_index[1]+1:]
+				line = line[:anchor_indexes[i][0]] + "<a class='project_link' href='" + line[ref_index[0]+1:ref_index[1]] + "' target='_blank'>" + line[anchor_indexes[i][0]+1:anchor_indexes[i][1]] + "</a>" + line[ref_index[1]+1:]
 		
 		if line[0] == "<":
 			output.content += line

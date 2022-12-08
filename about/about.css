@@ -16,6 +16,9 @@ h2 {
         margin: auto;
     }
 } 
+.about {
+    color: teal;
+}
 .about_body {
     color: #fff;
     font-size: 1.5rem;

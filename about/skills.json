@@ -21,8 +21,17 @@
             "keywords": [
                 "ReactJS",
                 "ReactNative",
-                "Flutter",
                 "Firebase"
+            ]
+        },
+        {
+            "name": "Machine Learning Model Design",
+            "level": "Intermediate",
+            "summary": "I have build machine learning models and used them to solve problems in real world applications.",
+            "keywords": [
+                "Machine Learning",
+                "Neural Networks",
+                "Artificial Intelligence"
             ]
         }
     ]

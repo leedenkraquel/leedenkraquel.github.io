@@ -1,6 +1,6 @@
 ###
 # Name: page.py
-# Auhtor(s): Leeden Raquel
+# Author(s): Leeden Raquel
 # Description: every page in the site is created by this script. It 
 #  adds the navbar and the footer to each page
 ###
@@ -65,7 +65,7 @@ def create_page (directory, body, stylesheets = []):
     global subdirectory
     subdirectory = "../" * directory.count("/")
     page_html = open(directory, "w")
-    page_html.write('<!-- THIS FILE IS PROGRAMATICALLY GENERATED, CHANGES TO THIS .html FILE WILL NOT SAVE-->')
+    page_html.write('<!-- THIS FILE IS PROGRAMMATICALLY GENERATED, CHANGES TO THIS .html FILE WILL NOT SAVE-->')
     page_html = write_header(page_html, stylesheets)
     page_html.write('<body><div class="background_image">')
     page_html = write_navbar(page_html)

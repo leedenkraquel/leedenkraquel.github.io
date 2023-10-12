@@ -23,7 +23,7 @@ Anyone who's worked on UI design know that it's a little complicated in the begi
 # UI Frameworks
 
 If you wanna make a website on the level of a professional, the next step is most likely integrating a UI framework into the website. The UI framework is a set of classes and subsystems that will help organize the webpage. It facilitates many structures that are common among many websites. A good first base to UI frameworks is definitely [Semantic-UI](https://semantic-ui.com/). This UI framework is a simple class based framework that can be used to replicate many of the structures that can be seen throughout the internet. Even this webpage is made with Semantic UI.
-  Semantic UI can do some amazing things with the simplest of integration. With a class system that is based on English and not some fancy programing jargon, the framework is simple to grasp and can even, though no professional would recommend it, guessed through.
+  Semantic UI can do some amazing things with the simplest of integration. With a class system that is based on English and not some fancy programming jargon, the framework is simple to grasp and can even, though no professional would recommend it, guessed through.
 
 Let's show an example. Here are four images that use the Semantic UI framework with multiple classes. The image to the right is a medium sized UI image floated to the right of the screen.
 

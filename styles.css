@@ -104,7 +104,7 @@ body {
     color: #fff;
     height: 6em;
     display: grid;
-    grid-template-columns: auto auto auto; 
+    grid-template-columns: 33% 33% 33%; 
     justify-items: center;
     align-items: center;
     font-size: 0.9rem;
@@ -126,6 +126,10 @@ body {
 }
 .sitemap_obj:hover {
     color: teal;
+}
+.quote {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .footer_icon {
     height: 2em;

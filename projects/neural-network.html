@@ -1,4 +1,4 @@
-<!-- THIS FILE IS PROGRAMATICALLY GENERATED, CHANGES TO THIS .html FILE WILL NOT SAVE-->
+<!-- THIS FILE IS PROGRAMMATICALLY GENERATED, CHANGES TO THIS .html FILE WILL NOT SAVE-->
         <head>
             <title>Leeden R | Portfolio</title>
             <link rel="stylesheet" href="../styles.css" /><link rel="stylesheet" href="about-project.css" />
@@ -15,7 +15,7 @@
         </div>
     <div class="site_body"><h1>Hand Crafted Neural Network</h1><p>I created a neural network from scratch. This neural network recognizes articles of clothing from the <a class='project_link' href='http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/' target='_blank'>fashion mnist dataset</a>. The significance of this simple neural network classifier is that it is constructed without the use of famous libraries such as Keras, Scikit Learn, Pytorch, etc.
 </p><h1>The Fashion MNIST Dataset
-</h1><p>The MNIST Fashion dataset includes 70,000 samples of 28x28 grayscale images of clothing articles. Each of these samples are labeled as one of ten classes. The classes are as follows:
+</h1><p>The MNIST Fashion dataset includes 70,000 samples of 28x28 gray-scale images of clothing articles. Each of these samples are labeled as one of ten classes. The classes are as follows:
 </p><img class = "ui medium floated right image" src = "../images/bad-neural-network.png">
 <p>0 - T-shirt/top
 </p><p>1 - Trouser
@@ -30,11 +30,11 @@
 </p><h1>The Neural Network
 </h1><p>The simple neural network contained only one hidden layer. The input is a 784x1 array representing the pixels in a flattened sample image. This hidden layer has a size between 1 and 29 neurons. The hidden layer uses a relu function as it's non-linear function. This prevents the values of the weights from dipping below zero. The neural network outputs a 10x1 array which represented a set probabilities that the neural network uses as its prediction for the label of the sample. The output layer uses a softmax function to make sure the probabilities in the output all sum to one.
 </p><h1>Feature Engineering 
-</h1><p>Before handing the dataset into the neural network, the data has to be flattened from a 28x28 grayscale image to a 784x1 array of number which represents the value of each pixel.
+</h1><p>Before handing the dataset into the neural network, the data has to be flattened from a 28x28 gray-scale image to a 784x1 array of number which represents the value of each pixel.
 </p><img class = "ui medium floated left image" src = "../images/neuron-optimization.png">
 <p>Of the 70,000 samples, 60,000 samples were used as a training set and the remaining 10,000 samples were considered the clean testing set. The clean testing set is important to analyze the neural network using data that it has never seen before. 
 </p><h1>Hyperparameter Optimization
-</h1><p>The hyperparameters in a machine learning model are the set of numbers that can be changed to heighten the efficiency and quality of training within the model. The hyperparameters in the neural network include learning rate, batch size, max epochs, and hidden layer shape. Learning rate controls the magnitude of the weight adjustments for each epoch of training. The batch size determines the number of samples that the neural network trains on at a time. The max epochs determines the maximum number of times the neural network is trained. The hidden layer shape determines the number of neurons in the hidden layer. The learning rate was tuned between 0.01 and 1e-10 in intervals of a magnitude of 1/10. The batch size was tuned between 1 and 500 samples at a time in intervals of 10. The max epochs was tuned between 10 and 10000 epochs with intervals of 1000. The hidden layer shape was tuned between 1 and 29 neurons with intervals of 1.
+</h1><p>The hyperparameter in a machine learning model are the set of numbers that can be changed to heighten the efficiency and quality of training within the model. The hyperparameters in the neural network include learning rate, batch size, max epochs, and hidden layer shape. Learning rate controls the magnitude of the weight adjustments for each epoch of training. The batch size determines the number of samples that the neural network trains on at a time. The max epochs determines the maximum number of times the neural network is trained. The hidden layer shape determines the number of neurons in the hidden layer. The learning rate was tuned between 0.01 and 1e-10 in intervals of a magnitude of 1/10. The batch size was tuned between 1 and 500 samples at a time in intervals of 10. The max epochs was tuned between 10 and 10000 epochs with intervals of 1000. The hidden layer shape was tuned between 1 and 29 neurons with intervals of 1.
 </p><p>The hyperparameters were optimized by hand, evaluating the cross entropy loss over time as the network trained. After trying each value for the hyperparameters, the best values were found. The best hyperparameters were found to be the following:
 </p><img class = "ui medium floated right image" src = "../images/neuron-optimization-pred.png">
 <p style='margin-left: 40px'>Learning Rate: 1e-10
@@ -60,7 +60,7 @@
                 <a href="https://www.linkedin.com/in/leeden-raquel-398309183/" target="_blank"><img class="inverted footer_icon" src="../images/linkedin.png" alt="linkedin logo" /></a>
             </div>
             <div class="footer_col">
-                <p>Quote</p>
+                <p class="quote">He who would accomplish little must sacrifice little; he who would achieve much must sacrifice much; he who would attain highly must sacrifice greatly. - James Allen</p>
             </div>
         </div>
     </div></body>

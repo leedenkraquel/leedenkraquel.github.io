@@ -55,7 +55,7 @@ def write_footer (page):
                 <a href="https://www.linkedin.com/in/leeden-raquel-398309183/" target="_blank"><img class="inverted footer_icon" src="''' + subdirectory + '''images/linkedin.png" alt="linkedin logo" /></a>
             </div>
             <div class="footer_col">
-                <p>He who would accomplish little must sacrifice little; he who would achieve much must sacrifice much; he who would attain highly must sacrifice greatly. - James Allen</p>
+                <p class="quote">He who would accomplish little must sacrifice little; he who would achieve much must sacrifice much; he who would attain highly must sacrifice greatly. - James Allen</p>
             </div>
         </div>
     ''')

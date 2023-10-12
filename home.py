@@ -5,7 +5,7 @@ from essays.essays import create_essay_cards
 
 ###
 # Name: page.py
-# Auhtor(s): Leeden Raquel
+# Author(s): Leeden Raquel
 # Description: generates a string that represents the html for the home page. The home page should
 #  display a header with my name followed by a preview of my projects and essays
 ###

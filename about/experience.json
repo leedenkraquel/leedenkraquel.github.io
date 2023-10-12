@@ -1,11 +1,24 @@
 {
     "experience": [
         {
+            "company": "Hawaiian Electric Company",
+            "position": "IT Client Infrasturcture Specialist",
+            "website": "https://www.hawaiianelectric.com/",
+            "startDate": "03/2022",
+            "endDate": "Present",
+            "highlights": [
+                "Assist in managing, installing, and documenting third party software the company uses",
+                "Create and deploy scripts that install programs, reconfigure machines, modify registry keys, and automate various other business needs",
+                "Act as a level three support for third party software",
+                "Assist in enforcing and documenting infrastructure specifications and requirements"
+            ]
+        },
+        {
             "company": "UH Information Technology Services",
             "position": "IT Support",
             "website": "http://www.hawaii.edu/its/",
             "startDate": "04/2022",
-            "endDate": "Present",
+            "endDate": "12/2022",
             "highlights": [
                 "Troubleshoot software, hardware and networking issues over the phone",
                 "Train end users on hardware functionality and software programs",
@@ -16,7 +29,6 @@
         {
           "company": "Evercast Ventures",
           "position": "Mobile App Design and Development Intern",
-          "website": "https://evercast.life/",
           "startDate": "01/2021",
           "endDate": "05/2022",
           "highlights": [

@@ -2,7 +2,7 @@ import json
 
 ###
 # Name: about.py
-# Auhtor(s): Leeden Raquel
+# Author(s): Leeden Raquel
 # Description: generates a string that represents the html for the about me page. The about me page
 #  should show a resume about me, skills, experience, and awards
 ###

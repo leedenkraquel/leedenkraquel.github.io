@@ -17,7 +17,7 @@
             "company": "UH Information Technology Services",
             "position": "IT Call Center Support",
             "website": "http://www.hawaii.edu/its/",
-            "startDate": "04/2022",
+            "startDate": "09/2018",
             "endDate": "12/2022",
             "highlights": [
                 "Troubleshoot software, hardware and networking issues over the phone",
@@ -36,19 +36,6 @@
             "Work with, clean, organize, and improve existing code base",
             "Collaborate with other subsystems using agile project management for efficient implementation",
             "Research and test design solutions to problems while maintaining appropriate documentation"
-          ]
-        },
-        {
-          "company": "UH Information Technology Services",
-          "position": "Lab Assistant",
-          "website": "http://www.hawaii.edu/its/",
-          "startDate": "09/2018",
-          "endDate": "04/2022",
-          "highlights": [
-            "Assist with user requests and issues",
-            "Resolve lab related malfunctions",
-            "Perform routine maintenance on lab equipment",
-            "Monitor supplies and handle shortages"
           ]
         }
     ]
